@@ -1,4 +1,4 @@
-name: nodejs CI
+name: test CI
 
 on:
   push:
