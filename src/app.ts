@@ -14,7 +14,7 @@ app.get("/name", (req: Request, res: Response) => {
   res.status(200).send("Hello World");
 });
 
-app.get("/", (req: Request, res: Response) => {
+app.get("/test", (req: Request, res: Response) => {
   res.json({ message: "Express + TypeScript Server" });
 });
 
